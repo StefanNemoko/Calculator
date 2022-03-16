@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alexander Popov — Home</title>
+<link href="index.css" rel="stylesheet" type="text/css">
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Back to top button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 200px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script> 
+<!-- Main Container -->
+<div class="container"> 
+  
+  <!-- Header -->
+  <header class="header">
+    <div class="topnav" id="myTopnav"> <a href="index.html" class="active">Home   </a> <a href="principal.html">Selected Publications   </a> <a href="research.html">Published Research   </a> <a href="working.html">Working Papers   </a> <a href="personal.html">Personal   </a>    <a href="Alex_Popov_CV.pdf">Curriculum Vitae</a> <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a> </div>
+    <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script> 
+  </header>
+  <!-- Hero Section -->
+  <section class="intro">
+    <div class="column"> <img src="images/profile.png" alt="" class="profile"> </div>
+    <div class="column">
+      <h3>Alexander A. Popov</h3>
+      <p>PhD, <em>University of Chicago</em> <br>
+        Research Adviser, <em>European Central Bank</em><br>
+        Research Fellow, <em>CEPR Financial Economics &amp; CEPR Monetary Economics</em></p>
+    </div>
+  </section>
+  <!-- Starts Content Section -->
+  
+  <div class="content">
+    <h3>Intro</h3>
+    <p>I am a research economist, at the <em>European Central Bank</em> since 2007. </p>
+    <p>I am also a <em>CEPR Research Fellow</em>, both in the <em style="">Financial Economics Programme</em> and in the <em>Monetary Economics and Fluctuations Programme</em>.</p>
+    <p>My areas of interest are:
+    <ul>
+      <li>finance, growth, and risk;</li>
+      <li>banks and the real economy;</li>
+      <li>finance and politics;</li>
+      <li>finance and labor.</li>
+    </ul>
+    </p>
+    <p>My work has been published in top journals in both economics and finance, such as <em>American Economic Journal: Macroeconomics, Journal of International Economics</em> (2x), <em>Journal of Development Economics, Journal of Financial Economics, Review of Financial Studies</em> (2x), <em>American Economic Review Papers &amp; Proceedings</em>, and <em>European Economic Review</em>.</p>
+    <p>My research papers have been presented in top academic conferences in economics, such as <em>AEA</em> (3x), <em>AFA</em> (2x), <em>Darden International Finance</em> (2x), <em>ECB/CEPR Labor Market Workshop</em> (2x), <em>Econometric Society World Congress, EEA</em> (3x), <em style="">EFA</em> (7x), <em>FIRS</em> (2x), <em>Lenzerheide</em>, <em>RES</em> (3x), <em>SED</em>, <em style="">Utah Finance</em>, and <em>WFA</em> (2x).</p>
+    <p>My research has been cited by the <em>Economist, Bloomberg, Financial Times</em>, and <em>Frankfurter Allgemeine Zeitung</em>, as well as received <em>Best Paper Awards</em> from the <em>Review of Finance</em>, the <em>Australasian Conference on Banking and Finance</em>, and the <em>Cass Business School Emerging Markets Finance Conference</em>.</p>
+    <p>I have taught an undergraduate course in <em>econometrics</em> at the <em>University of Chicago</em> and a graduate course in <em>corporate finance theory</em> at <em>Tilburg University</em>.</p>
+    <p>In the <em>RePEc</em> ranking, I am ranked in the <a href="https://ideas.repec.org/top/top.person.all10.html"><strong>top 1% in the world in the past 10 years</strong></a>, and in the top 100 in Europe.</p>
+    <p>Disclaimer: This is my personal website. The opinions expressed here do not represent the views of the <em>ECB</em> or the <em>Eurosystem</em>.</p>
+    <h3>Recent</h3>
+    <p><strong>December 2021:</strong> <em>The Economist</em> <a href="https://www.economist.com/finance-and-economics/2021/12/04/how-piecemeal-carbon-pricing-affects-cross-border-lending">featured</a> my recent paper <a href="http://cepr.org/active/publications/discussion_papers/dp.php?dpno=16745">Carbon Taxes and the Geography of Fossil Lending</a> with <a href="https://sites.google.com/site/laevenl/home">Luc Laeven</a> to make the case for a global - as opposed to a piecemeal - carbon tax.</p>
+    <p><strong>October 2021:</strong> I joined the <em>Monetary Economics and Fluctuations Program</em> and the <em>Financial Economics Program</em> of the <a href="http://www.cepr.org"><em>CEPR</em></a> as a Research Fellow.</p>
+    <p><strong>May 2021:</strong> <a href="https://ideas.repec.org/a/oup/rfinst/v34y2021i6p3138-3180..html"><em>Political Cycles in Bank Lending to the Government</em></a> (with <a href="http://www.iwh-halle.de/en/about-the-iwh/people/detail/michael-koetter/">Michael Koetter</a>) was published in the <em>Review of Financial Studies</em>.</p>
+    <p><strong>November 2020:</strong> My <a href="https://ideas.repec.org/a/wly/jmoncb/v52y2020is1p307-311.html">discussion</a> of <a href="https://sites.google.com/site/orkunsaka/">Orkun Saka</a>'s <a href="https://ideas.repec.org/a/wly/jmoncb/v52y2020is1p273-305.html"><em>Domestic Banks As Lightning Rods? Home Bias and Information during the Eurozone Crisis</em></a> was published in the <em>Journal of Money, Credit, and Banking</em>.</p>
+    <p><strong>October 2020:</strong> <a href="https://ideas.repec.org/a/eee/jbfina/v120y2020ics0378426620302120.html"><em>Debt Overhang, Global Growth Opportunities, and Investment</em></a> (with <a href="https://www.ecb.europa.eu/pub/research/authors/profiles/francesca-barbiero.en.html">Francesca Barbiero</a> and <a href="http://marcinwolski.org/">Marcin Wolski</a>) was published in the <em>Journal of Banking &amp; Finance</em>.</p>
+    <p><strong>December 2019:</strong> <a href="https://ideas.repec.org/a/pal/imfecr/v67y2019i4d10.1057_s41308-019-00092-2.html"><em>On the Link Between the Volatility and Skewness of Growth</em></a> (with <a href="http://www0.gsb.columbia.edu/faculty/gbekaert/">Geert Bekaert</a>) was published in the <em>IMF Economic Review</em>.</p>
+    <p><strong>October 2019:</strong> <a href="https://ideas.repec.org/a/aea/aejmac/v11y2019i4p346-79.html"><em>The Invisible Hand of the Government: Moral Suasion During the Sovereign Debt Crisis</em></a> (with <a href="https://sites.google.com/site/stevenongena/">Steven Ongena</a> and <a href="https://www.bankofengland.co.uk/research/researchers/neeltje-van-horen">Neeltje Van Horen</a>) was published in the <em>American Economic Journal: Macroeconomics</em>.</p>
+    <p><strong>June 2019:</strong> <a href="https://ideas.repec.org/a/eee/eecrev/v115y2019icp25-59.html"><em>Credit Market Competition and the Gender Gap in Labor Force Participation: Evidence from Local Labor Markets</em></a> (with <a href="https://sites.google.com/view/soniazaharia">Sonia Zaharia</a>) was published in the <em>European Economic Review</em>.</p>
+    <p><strong>June 2019:</strong> <a href="https://ideas.repec.org/a/wly/jmoncb/v51y2019i4p895-928.html"><em>Do SMEs Benefit from Unconventional Monetary Policy and How? Micro-Evidence from the Eurozone</em></a> (with <a href="https://www.ecb.europa.eu/pub/research/authors/profiles/annalisa-ferrando.en.html">Annalisa Ferrando</a> and <a href="http://www.kelley.iu.edu/gudell/">Gregory F. Udell</a>) was published in the <em>Journal of Money, Credit and Banking</em>.</p>
+    <p><strong> April 2019:</strong> I joined the <em>Economic Policy Panel</em> for the period 2019-2020.</p>
+    <p><strong>February 2019:</strong> I joined the <em>Journal of Banking &amp; Finance</em> as an associate editor.</p>
+    <h3>Coming Up</h3>
+    <p>I will discuss "Climate Risk and FDI" by Grace Gu and Galina Hale at the <em>NBER’s</em> 45th annual meeting of the <em>International Seminar on Economics</em>, hosted by the <em>Bank of Greece</em> on June 20-21.</p>
+    <p>I am co-organizing, with <a href="http://www.ebrd.com/what-we-do/economic-research-and-data/researchers/ralph-de-haas.html">Ralph De Haas</a>, the <em>CEPR/EBRD/ECB Symposium</em> on “Climate change, finance and green growth”. The inaugural event took place virtually on 14-15 June 2021 in Frankfurt, and we had a very strong <a href="https://www.ecb.europa.eu/pub/conferences/html/20210614_cepr_ebrd_ecb_symposium.en.html">program</a>. Stay tuned for the next installment!</p>
+  </div>
+  
+  <!-- Footer Section -->
+  <footer>
+    <div class="button"><a href="mailto:Alexander.Popov@ecb.europa.eu">EMAIL ME</a></div>
+    <p align="center"><strong>Tel.: +49(0)6913448428</strong></p>
+    <div class="footernav"> <a href="https://ideas.repec.org/f/ppo244.html">My RePEc page</a> <a href="https://scholar.google.com/citations?user=j0VnsWIAAAAJ">My Google scholar page</a> <a href="http://voxeu.org/users/alexanderpopov0">My Vox page</a> </div>
+    <p align="center"><small>&copy;2022 Alexander Popov. Designed by <a href="https://alphadesigner.com" target="_blank">Alphadesigner</a>.</small></p>
+  </footer>
+</div>
+
+<!-- Main Container Ends -->
+
+
+
+</body>
+</html>
