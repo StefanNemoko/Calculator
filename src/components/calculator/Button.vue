@@ -32,6 +32,9 @@ export default {
         border-radius: 50%;
         font-size: 2em;
         width: 50px;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
     }
     p:hover{
         cursor: pointer;
